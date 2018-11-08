@@ -1,8 +1,10 @@
-tp-test
+# tp-test
 
 当前项目用于整个Lib项目最佳发布流程.
 
-GIT
+## GIT
+
+### 基础
 
 - 基线分支 master 和 develop 两个分支. master 用于记录稳定版, 可用直接用于发布. develop 记录开发版本, 包括稳定版和beta版本.
 - 正常开发从develop分支拉取代码（特殊情况从master上拉取分支，比如hotfix），
@@ -14,4 +16,5 @@ GIT
 - 提解决冲突
 - 提交结束后删除本地分支和线上分支
 
+### 工作流
 
